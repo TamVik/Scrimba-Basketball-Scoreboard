@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Light-led;
+    src: url("light_led_board-7.ttf");
+}
+
+body {
+    background: url("background.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 4em;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: .2rem solid #457b9d;
+    border-radius: 1em;
+    padding: 3em;
+    background-color: #023047;
+    opacity: .9;
+}
+
+h2 {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 3rem;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    opacity: 1;
+}
+
+p,
+button {
+    font-family: Light-led;;
+}
+
+p {
+    margin-top: 0;
+    background-color: black;
+    color: #e63946;
+    padding: 1rem;
+    border-radius: .2em;
+    font-size: 4rem;
+}
+
+button {
+    font-size: 2rem;
+    border-radius: .2rem;
+}
+
+button:hover,
+button:active {
+    color: #ffb703;
+}
