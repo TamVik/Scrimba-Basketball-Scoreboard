@@ -1,36 +1,36 @@
 
-let firstNumber = 0;
+let homeDefault = 0;
 let homeNumber = document.getElementById("home-number");
-let secondNumber = 0;
+let guestDefault = 0;
 let guestNumber = document.getElementById("guest-number");
 
 function addHome1() {
-    firstNumber += 1;
-    homeNumber.textContent = firstNumber;
+    homeDefault += 1;
+    homeNumber.textContent = homeDefault;
 }
 
 function addHome2() {
-    firstNumber += 2;
-    homeNumber.textContent = firstNumber;
+    homeDefault += 2;
+    homeNumber.textContent = homeDefault
 }
 
 function addHome3() {
-    firstNumber += 3;
-    homeNumber.textContent = firstNumber;
+    homeDefault += 3;
+    homeNumber.textContent = homeDefault;
 }
 
 
 function addGuest1() {
-    secondNumber += 1;
-    guestNumber.textContent = secondNumber;
+    guestDefault += 1;
+    guestNumber.textContent = guestDefault;
 }
 
 function addGuest2() {
-    secondNumber += 2;
-    guestNumber.textContent = secondNumber;
+    guestDefault += 2;
+    guestNumber.textContent = guestDefault;
 }
 
 function addGuest3() {
-    secondNumber += 3;
-    guestNumber.textContent = secondNumber;
+    guestDefault += 3;
+    guestNumber.textContent = guestDefault;
 }
