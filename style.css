@@ -67,3 +67,12 @@ button:active {
     opacity: .9;  
 }
 
+span {
+    color: #e63946;
+    }
+
+@media (min-width: 900px) {
+    span {
+        color: white;
+    }
+}
