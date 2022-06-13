@@ -34,3 +34,10 @@ function addGuest3() {
     guestDefault += 3;
     guestNumber.textContent = guestDefault;
 }
+
+function newGame() {
+    homeDefault = 0;
+    guestDefault = 0;
+    homeNumber.textContent = homeDefault;
+    guestNumber.textContent = guestDefault;
+}
