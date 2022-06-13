@@ -56,3 +56,13 @@ button:hover,
 button:active {
     color: #ffb703;
 }
+
+.newGameBtn {
+    text-align: center;
+    margin-top: 1em;
+    padding: 0.8em 2em;
+    background-color: #023047;
+    color: white;
+    border: .2rem solid #457b9d;
+    opacity: .9;  
+}
