@@ -70,13 +70,13 @@ button:active {
     border: .2rem solid #457b9d;
     opacity: .9;  
 }
-
-span {
-    color: #e63946;
+h2 span {
+    color: white;
     }
 
-@media (min-width: 900px) {
-    span {
-        color: white;
+
+@media (max-width: 900px) {
+    h2 span {
+        color: #e63946;
     }
 }
